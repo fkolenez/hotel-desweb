@@ -1,0 +1,42 @@
+body,html {
+    padding: 0;
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.margin0 {
+    margin-right: 0;
+}
+
+.padding0 {
+    padding: 0;
+}
+
+.divNavBar {
+    width: 150px;
+    border-radius: 0px 0px 30px 30px;
+}
+
+.imagemFundo {
+    background-image: url(./img/txai-itacare-1920x1080-1.webp);
+    background-attachment: fixed;
+    object-fit: cover;
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+}
+
+.eb-garamond {
+    font-family: "EB Garamond", serif !important;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.styledContainer {
+    background-image: url('./img/txai-itacare-1920x1080-1.webp');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
