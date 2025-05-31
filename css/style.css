@@ -147,3 +147,11 @@ body, html {
     height: 300px;
     width: 500px;
 }
+
+.footer{
+    background-color: rgb(228, 228, 228);
+    height: 150px; 
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
