@@ -155,3 +155,31 @@ body, html {
     align-items: center;
     display: flex;
 }
+
+.imagemQuarto{
+    height: 100%;
+    width: 100%;
+}
+
+.textoPreco {
+    background-color: #f4f4f4;
+    display: inline-block;
+    padding: 8px 12px;
+    border-radius: 4px; 
+}
+
+.text-block {
+  display: block;
+  width: 100%;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+.hover-up{
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hover-up:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15); 
+}
